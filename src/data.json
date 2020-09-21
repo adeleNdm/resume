@@ -1,0 +1,65 @@
+{
+  "title": "Hello, I'm Ayleen!",
+  "subtitle": "Front End Dev | Web Designer",
+  "links": {
+    "github": "https://github.com/adeleNdm",
+    "linkedin": "https://www.linkedin.com/in/adele-nademi-673579172/",
+    "instagram": "https://www.instagram.com/melan_art/?hl=en"
+  },
+  "contact": "adele.nademi@gmail.com | 09104628720",
+  "sections": [
+    {
+      "title": "About",
+      "items": [
+        {
+          "type": "p",
+          "content": "I like javaScript and everything web",
+          "content1": "I am always energetic and eager to learn new skills and I use a creative approach to problem solve so I’m always coming up with innovative ideas. I am a dependable person who is great at time management also I have experience working as part of a team and individually. I am flexible in my working hours, being able to work evenings and weekends because I love my work. I am motivated to go to the yoga and gym to get fit, healthy and relax, I'm interested in painting and photography so I’m always painting my spare time."
+        }
+      ]
+    },
+    {
+      "title": "Skills",
+      "items": [
+        {
+          "type": "card",
+          "content": {
+            "image": "/url",
+            "title": "react"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "/url",
+            "title": "javascript"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "html.png",
+            "title": "HTML"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "/url",
+            "title": "CSS"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "/url",
+            "title": "Bootstrap"
+          }
+        }
+      ]
+    }
+  ], 
+  "icons":{
+    "down":"down.png"
+  }
+}
