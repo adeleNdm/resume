@@ -5,13 +5,12 @@ import data from "../data.json";
 import { SocialIcon } from "react-social-icons";
 import "./TitlesAndIcons.css";
 import { findRenderedComponentWithType } from "react-dom/test-utils";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Col, Row, Form , Container } from "react-bootstrap";
 import {
   Link,
   Element,
-  Events,
   animateScroll as scroll,
-  scrollSpy,
-  scroller,
 } from "react-scroll";
 class TitlesAndIcons extends Component {
   state = {
@@ -26,8 +25,11 @@ class TitlesAndIcons extends Component {
     return (
       <div>
         <Fullpage className="first">
-          <h1
-            className="title"
+          <Container>
+            <Row>
+              <Col>
+          <h1 
+            className="title text-responsive mb-5"
             style={{ color: this.state.color }}
             onMouseOver={() => {
               this.changeColor();
@@ -38,34 +40,37 @@ class TitlesAndIcons extends Component {
           >
             {data.title}
           </h1>
-          <div>
-            <h2>{data.subtitle}</h2>
+          <div className="text-responsive-subt">
+            <strong>{data.subtitle}</strong>
           </div>
           <div className="icon-wrapper">
             {Object.keys(data.links).map((key) => {
               return (
-                <div className="icon">
+                <div className="icon ">
                   <SocialIcon url={data.links[key]} />
                 </div>
               );
             })}
           </div>
-          <div>
-            <h2>{data.contact}</h2>
+          <div className="text-responsive-subt">
+            <strong>{data.contact}</strong>
           </div>
+          </Col>
+          </Row>
+          </Container>
         </Fullpage>
         <Link
           activeClass="active"
-          to="about"
+          to="About"
           spy={true}
           smooth={true}
           offset={50}
-          duration={500}
+          duration={400}
           delay={300}
         >
           <DownIcon icon={data.icons.down} onClick={() => console.log("im")} />
         </Link>
-        <Element name="about" className="element"></Element>
+        <Element name="About" className="element"></Element>
       </div>
     );
   }

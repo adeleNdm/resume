@@ -14,7 +14,8 @@
         {
           "type": "p",
           "content": "I like javaScript and everything web",
-          "content1": "I am always energetic and eager to learn new skills and I use a creative approach to problem solve so I’m always coming up with innovative ideas. I am a dependable person who is great at time management also I have experience working as part of a team and individually. I am flexible in my working hours, being able to work evenings and weekends because I love my work. I am motivated to go to the yoga and gym to get fit, healthy and relax, I'm interested in painting and photography so I’m always painting my spare time."
+          "content1": "I am always energetic and eager to learn new skills and I use a creative approach to problem solve so I’m always coming up with innovative ideas. I am a dependable person who is great at time management also I have experience working as part of a team and individually. I am flexible in my working hours, being able to work evenings and weekends because I love my work. I am motivated to go to the yoga and gym to get fit, healthy and relax, I'm interested in painting and photography so I’m always painting my spare time.",
+          "birthday": "Birth Date : 13 May 1995"
         }
       ]
     },
@@ -24,42 +25,147 @@
         {
           "type": "card",
           "content": {
-            "image": "/url",
-            "title": "react"
+            "title": "React",
+            "percent": "90"
           }
         },
         {
           "type": "card",
           "content": {
-            "image": "/url",
-            "title": "javascript"
+            "title": "javascript",
+            "percent": "90"
           }
         },
         {
           "type": "card",
           "content": {
-            "image": "html.png",
-            "title": "HTML"
+            "title": "HTML",
+            "percent":"100"
           }
         },
         {
           "type": "card",
           "content": {
-            "image": "/url",
-            "title": "CSS"
+            "title": "CSS",
+            "percent":"100"
           }
         },
         {
           "type": "card",
           "content": {
-            "image": "/url",
-            "title": "Bootstrap"
+            "title": "jQuery",
+            "percent":"65"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "title": "Bootstrap",
+            "percent":"85"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "title": "C & C++",
+            "percent":"85"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "title": "Java",
+            "percent":"70"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "title": "Photoshop",
+            "percent":"80"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "title": "MySQL",
+            "percent":"85"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "title": "Git",
+            "percent":"90"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "title": "prezi",
+            "percent":"100"
           }
         }
       ]
+    },
+    {
+      "title": "Experiences",
+      "items": [
+        {
+          "y": "2020:",
+          "w": "Design website for ArcBES company",
+          "l": "(http://arcbes.ir/)"
+        },
+        {
+          "y": "2019-2020:",
+          "w": "Work at arcbes as web designer"
+        },
+        {
+          "y": "2019:",
+          "w": "I’ve Done my thesis at Tarbiat Modares University , It subject was “E-Learning personalization ",
+          "w1": "based on  learner's cognitive style and prior knowledge” . I designed a website for a questionnaire(8thclass.ir) –turn on vpn"
+        },
+        {
+          "y": "2019:",
+          "w": "I've gotten PHP and Laravel Training Certificate from Tehran Faculty of Engineering for 40 hours."
+        },
+        {
+          "y": "2018-2019:",
+          "w": "Laravel Programming language as a backend developer in Sanjeman company for 3 months."
+        },
+        {
+          "y": "2018:",
+          "w": "participant in 6th international conference on e-learning and e-teaching"
+        },
+        {
+          "y": "2015:",
+          "w": "Theory of Languages Teaching Assistant 2015: C/C++ programming Teaching Assistant"
+        },
+        {
+          "y": "2015-2016:",
+          "w": "ACM referee in Shahroud University of Technology"
+        },
+        {
+          "y": "2014-2015:",
+          "w": "participant in ACM competition of Sharif university of Technology as a coach"
+        },
+        {
+          "y": "2014-2016:",
+          "w": "active member in Student Computer Science Society"
+        },
+        {
+          "y": "2014-2015:",
+          "w": "student work at computer lab of Shahroud University of Technology"
+        },
+        {
+          "y": "2014:",
+          "w": "Ideologist and analyst in Startup Weekend Sharif university of Technology: Ranked sevent"
+        }
+      ]
     }
-  ], 
-  "icons":{
-    "down":"down.png"
+  ],
+  "icons": {
+    "down": "down.png",
+    "up": "up.png"
   }
 }
