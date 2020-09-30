@@ -34,7 +34,7 @@ class ExperienceSection extends Component {
                       <p className="paragraphs content-size-resp">
                         <p className="title"> {d.y} </p>
                         {d.w}{d.w1}
-                        <a href={d.l}>{d.l}</a>
+                        <a href={d.l} target="_blank">{d.l} </a>
                       </p>
                       </Col>
                       </Row>
