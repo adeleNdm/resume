@@ -46,3 +46,15 @@ hr {
     font-size: 1.3rem;
   } 
 }
+
+@media (min-width: 1024px) {
+  .content-size-resp {
+    font-size: 1.4rem;
+  } 
+}
+
+@media (min-width: 1440px) {
+  .content-size-resp {
+    font-size: 1.7rem;
+  } 
+}

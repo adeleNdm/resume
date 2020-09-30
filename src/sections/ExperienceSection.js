@@ -45,7 +45,7 @@ class ExperienceSection extends Component {
             </Row>
           </Container>
         <UpIcon />
-        <div style={{height:"60px"}}></div>        
+        <div style={{height:"120px"}}></div>        
       </div>
     );
   }
