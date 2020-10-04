@@ -13,4 +13,7 @@
     background-color: mistyrose;
     color: steelblue;
   }
-  
+  img{
+    border-radius: 50%;
+    size: 50px;
+  }

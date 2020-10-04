@@ -28,6 +28,7 @@ class TitlesAndIcons extends Component {
           <Container>
             <Row>
               <Col>
+         <img src={data.icons.profile} alt="adele nademi"/>
           <h1 
             className="title text-responsive mb-5"
             style={{ color: this.state.color }}

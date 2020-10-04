@@ -13,6 +13,7 @@ function App() {
       <div className="colorIcon">
         <img src="color.png" />
       </div>
+      <title>adele nademi</title>
       <NavCom />
       <TitlesAndIcons />
       <AboutSection />

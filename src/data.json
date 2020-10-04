@@ -166,6 +166,7 @@
   ],
   "icons": {
     "down": "down.png",
-    "up": "up.png"
+    "up": "up.png",
+    "profile":"profile.png"
   }
 }
