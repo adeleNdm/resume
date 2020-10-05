@@ -3,15 +3,14 @@ body{
   height: 100%;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-
   background-color: mistyrose;
 }
 .App {
   text-align: center;
 }
 .colorIcon{
-  float: left;
-
+  float: right;
+  padding-right: 40px;
 }
 .colorIcon img{
   width: 60px;

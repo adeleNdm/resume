@@ -7,8 +7,9 @@ class FullPage extends Component {
   render() {
     return (
       <div>
-        <Navbar className="justify-content-end" fixed="top">
-        <Nav activeKey="" >
+        <Navbar className="" fixed="top"
+        style={{width:"70%"}}>
+        <Nav activeKey=""  >
           <Nav.Item as="li">
             <Nav.Link href="#About">About</Nav.Link>
           </Nav.Item>

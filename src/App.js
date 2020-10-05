@@ -42,8 +42,8 @@ class App extends Component {
           vMaxY={2}
           vMaxX={2}
         />
-
-        <div
+        <NavCom />
+        <div 
           className="colorIcon"
           onClick={() => {
             this.changeColor();
@@ -57,7 +57,6 @@ class App extends Component {
         <AboutSection />
         <SkillSection />
         <ExperienceSection />
-        {/* <NavCom /> */}
       </div>
     );
   }
