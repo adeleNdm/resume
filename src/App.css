@@ -10,10 +10,10 @@ body{
 }
 .colorIcon{
   float: right;
-  padding-right: 40px;
+  padding-right: 60px;
 }
 .colorIcon img{
-  width: 60px;
+  width: 50px;
   position: fixed;
   padding: 10px;
 }

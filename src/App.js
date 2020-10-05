@@ -37,7 +37,7 @@ class App extends Component {
     return (
       <div className="App">
         <SnowStorm
-          animationInterval={80}
+          animationInterval={120}
           snowCharacter={"*"}
           vMaxY={2}
           vMaxX={2}
