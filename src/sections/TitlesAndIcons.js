@@ -13,18 +13,24 @@ import {
   animateScroll as scroll,
 } from "react-scroll";
 class TitlesAndIcons extends Component {
+  constructor(props) {
+    super(props);
+  }
   state = {
     color: "steelblue",
+    
   };
   changeColor = () => {
     this.setState({
-      color: this.state.color === "steelblue" ? "white" : "steelblue",
+      color: this.state.color === "steelblue" ? "#31517e" : "steelblue",
     });
   };
   render() {
     return (
       <div>
-        <Fullpage className="first">
+        <Fullpage className="first" background={this.props.background}
+      
+        >
           <Container>
             <Row>
               <Col>
@@ -35,13 +41,12 @@ class TitlesAndIcons extends Component {
             onMouseOver={() => {
               this.changeColor();
             }}
-            onMouseLeave={() => {
-              this.changeColor();
-            }}
           >
             {data.title}
           </h1>
-          <div className="text-responsive-subt">
+          <div className="text-responsive-subt" style={{
+            color:this.props.title_color
+          }}>
             <strong>{data.subtitle}</strong>
           </div>
           <div className="icon-wrapper">
@@ -53,7 +58,11 @@ class TitlesAndIcons extends Component {
               );
             })}
           </div>
-          <div className="text-responsive-subt">
+          <div className="text-responsive-subt"
+          style={{
+            color:this.props.title_color
+          }}
+          >
             <strong>{data.contact}</strong>
           </div>
           </Col>
