@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import "./SkillCard.css";
-import Fullpage from "../components/FullPage";
 import data from "../data.json";
+import Fullpage from "../components/FullPage";
 
+import "./SkillCard.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Col, Row, Container } from "react-bootstrap";
 import ProgressBar from "react-bootstrap/ProgressBar";

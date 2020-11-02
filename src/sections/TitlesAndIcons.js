@@ -15,7 +15,7 @@ import {
 class TitlesAndIcons extends Component {
   constructor(props) {
     super(props);
-  }
+  }  
   state = {
     color: "steelblue",
     
